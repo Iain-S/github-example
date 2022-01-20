@@ -5,4 +5,5 @@ Mountains In Wales
 * Tryfan
 * Snowdon
 * Sugarloaf
+* Cadair Idris
 
