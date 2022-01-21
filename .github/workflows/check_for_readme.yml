@@ -1,0 +1,13 @@
+---
+name: First CI Workflow
+
+on: [push, pull_request]
+
+jobs:
+  lint_markdown_files:
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Check for README.md
+      run: ls README.md
+      shell: bash
